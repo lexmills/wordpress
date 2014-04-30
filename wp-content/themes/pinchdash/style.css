@@ -1,0 +1,57 @@
+/****** Global ******/
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background: #789aa1; }
+
+ul {
+    list-style: none; }
+ul li a {
+    color: #fff; }
+
+/****** Navigation ******/
+nav {
+    overflow: auto; }
+nav ul li {
+    padding: 0 10px 0 0;
+    font-size: 3rem;
+    display: inline-block; }
+
+/****** Header ******/
+header.intro-header {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;}
+header.intro-header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: .7rem;
+    font-weight: bold; }
+
+/****** Main ******/
+main article {
+    padding: 10px 40px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px; }
+main article header {
+    margin-bottom: 10px; }
+main article header h2 {
+    color: #789aa1;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    font-weight: 400;
+    margin-bottom: 0; }
+main article header time {
+    color: #a0d5d6; }
+main article p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 100; }
+main aside {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px; }
+main aside blockquote {
+    border: none; }
