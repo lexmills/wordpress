@@ -1,0 +1,87 @@
+/****** Variables ******/
+/****** Global ******/
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  background: #789aa1; }
+
+a:hover {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul li a {
+    color: #fff; }
+
+/****** Navigation ******/
+nav {
+  overflow: auto; }
+  nav ul li {
+    padding: 0 10px 0 0;
+    font-size: 3rem;
+    display: inline-block; }
+
+/****** Header ******/
+header.intro-header {
+  text-transform: uppercase;
+  text-align: center; }
+  header.intro-header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: .7rem;
+    font-weight: bold; }
+
+/****** Main ******/
+main {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  font-weight: 100; }
+  main article {
+    padding: 10px 40px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px; }
+    main article header {
+      margin-bottom: 10px; }
+      main article header h2 {
+        margin-bottom: 0; }
+        main article header h2 a {
+          color: #789aa1;
+          font-size: 3rem;
+          letter-spacing: .3rem;
+          font-weight: 400;
+          margin-bottom: 0; }
+      main article header time {
+        color: #a0d5d6; }
+    main article p {
+      text-align: justify; }
+  main h3 {
+    font-size: 2rem;
+    margin-bottom: 0; }
+  main aside {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px; }
+    main aside blockquote {
+      border: none;
+      margin-bottom: 5px; }
+  main .print-recipe {
+    margin-bottom: 5px; }
+    main .print-recipe i {
+      margin-right: 5px; }
+    main .print-recipe a:hover {
+      cursor: pointer; }
+
+/**** Posts *****/
+.edit-post {
+  float: right; }
+
+.images {
+  margin: 0 auto;
+  width: 700px;
+  display: block; }
+  .images a {
+    display: inline-block; }
+    .images a:first-child {
+      margin: 0 10px 0 0; }

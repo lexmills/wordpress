@@ -7,8 +7,9 @@
         </ul>
       </nav>
       <blockquote>
-        "People who love to eat are <span>always</span> the best people."<br> - Julie Child
+        "People who love to eat are always the best people."
       </blockquote>
+       - Julie Child
     </aside>
 
   </main>

@@ -1,0 +1,5 @@
+header, footer, aside, article > p, article header, .edit-post { display: none; }
+
+a[href]:after {
+    content:"" !important;
+}
